@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="backgroundColor"
+        android:title="Set the Background Color"
+        android:defaultValue="#FF000000"/>
+
+    <Preference
+        android:key="lineColor"
+        android:title="set the Line Color"
+        android:defaultValue="#FFFFFFFF"/>
+
+    <EditTextPreference
+        android:key="colorMode"
+        android:title="Color Mode"
+        android:defaultValue="0"
+        android:summary="Se the Color Mode"/>
+
+    <EditTextPreference
+        android:key="velocity"
+        android:title="Velocity"
+        android:defaultValue="0"
+        android:summary="Set the Rotation speed"/>
+
+    <EditTextPreference
+        android:key="VertexNumber"
+        android:title="Vertex Number"
+        android:defaultValue="5"
+        android:summary="Set the number of vertexes"/>
+
+    <EditTextPreference
+        android:key="paintWidth"
+        android:title="Width of the Stroke"
+        android:defaultValue="5"
+        android:summary="Set the width of the Stroke"/>
+
+    <EditTextPreference
+        android:key="radius"
+        android:title="size of the Canvas"
+        android:defaultValue="5"
+        android:summary="Set the size of the Canvas"/>
+
+
+</PreferenceScreen>
